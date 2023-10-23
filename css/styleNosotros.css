@@ -1,0 +1,91 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --principal: #F0B920;
+    --secundario: #F2A922;
+    --terciario: #ffdc68;
+    --blanco: #F2F2F2;
+    --gris: #8C8C8C;
+    --grisOscuro: #404040;
+    --negro: #0D0D0D;
+}
+
+main{
+    padding: 0.5rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--negro);
+}
+
+section {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+h1{
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    width: 50vw;
+    color: var(--gris);
+    background-color: var(--gris);;
+    border: 0.05rem solid var(--gris);;
+    opacity: 0.75;
+}
+
+section .col {
+    height: 25rem;
+
+}
+
+section .tarjeta {
+    max-width: 23rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.1rem solid var(--negro);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+section .tarjeta figure {
+    width: 50%;
+}
+
+section .tarjeta figure img {
+    width: 100%;
+    border: 0.2rem solid var(--negro);
+    border-radius: 6rem;
+
+}
+
+section .tarjeta p {
+    max-width: 20rem;
+}
+
+.tarjeta:hover {
+    /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 0 1rem var(--secundario);
+}
+
+.tarjeta {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+    min-height: 23rem;
+}

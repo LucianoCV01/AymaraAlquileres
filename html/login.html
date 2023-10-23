@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web de alquileres inmobiliarios Aymara">
+  <meta name="author" content="Grupo Aymara">
+  <title>Aymara Alquileres</title>
+  <link rel="shortcut icon" href="../src/img/professional_yellow_logo-jz9H79gLB-transformed.jpg" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/styleNav.css">
+  <link rel="stylesheet" href="../css/styleLogin.css">
+  <link rel="stylesheet" href="../css/styleFooter.css">
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Login -->
+  <main>
+    <section>
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="columnaImg col d-none d-lg-flex col-md-5 col-lg-5">
+            <figure class="figureColumna text-center">
+              <img class="imgCostado" src="../src/img/leon-seibert-Whgt84a2fSQ-unsplash.jpg"
+                alt="alquiler de un departamento">
+            </figure>
+          </div>
+          <div class="col p-4">
+            <h2 class="fw-bold text-center pt-4 mb-4">Iniciar Sesión</h2>
+            <form action="../html/404.html" method="post">
+              <div class="mb-4">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" name="email" required maxlength="60"
+                  pattern="/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)*(\.[a-z]{2,7})$/">
+              </div>
+              <div class="mb-4">
+                <label for="contrasenia" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" name="contrasenia" maxlength="60"
+                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
+              </div>
+              <div class="mb-4 form-check">
+                <input type="checkbox" name="conectado" class="form-check-input">
+                <label for="conectado" class="form-check-label">Recordar nombre de usuario</label>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="botonAcceder btn btn-primary">Acceder</button>
+              </div>
+              <div class="contenedorEnlaces mb-3 mt-3">
+                <span>¿No tienes una cuenta? <a href="../html/registro.html">Registrate</a></span>
+                <span><a href="../html/404.html">Recuperar Contraseña</a></span>
+              </div>
+            </form>
+            <div class="container w-100 mb-5 mt-5">
+              <div class="row">
+                <div class="col-12 text-center">Iniciar Sesión</div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="../html/404.html">
+                    <button class="btn btn-outline-primary w-100 mb-1 mt-1">
+                      <div class="row align-items-center">
+                        <div class="col-2 d-none d-md-block">
+                          <img class="imgRedes" src="../src/img/facebook.png" alt="logo de facebook">
+                        </div>
+                        <div class="col-12 col-md-10 text-center">Facebook</div>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="../html/404.html">
+                    <button class="btn btn-outline-danger w-100 mb-1 mt-1">
+                      <div class="row align-items-center">
+                        <div class="col-2 d-none d-md-block">
+                          <img class="imgRedes" src="../src/img/google.png" alt="logo de google">
+                        </div>
+                        <div class="col-12 col-md-10 text-center">Google</div>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="../html/404.html">
+                    <button class="btn btn-outline-warning w-100 mb-1 mt-1">
+                      <div class="row align-items-center">
+                        <div class="col-2 d-none d-md-block">
+                          <img class="imgRedes" src="../src/img/instagram.png" alt="logo de instagram">
+                        </div>
+                        <div class="col-12 col-md-10 text-center">Instagram</div>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="../html/404.html">
+                    <button class="btn btn-outline-secondary w-100 mb-1 mt-1">
+                      <div class="row align-items-center">
+                        <div class="col-2 d-none d-md-block">
+                          <img class="imgRedes" src="../src/img/logotipo-de-apple.png" alt="logo de apple">
+                        </div>
+                        <div class="col-12 col-md-10 text-center">Apple</div>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer  -->
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="logo">
+        <figure>
+          <a href="../index.html"><img class="logo_img_footer"
+              src="../src/img/professional_yellow_logo-jz9H79gLB-transformed.jpg" alt="Logo de Aymara"></a>
+        </figure>
+      </div>
+      <div class="informacion">
+        <h2><b>INFORMACIÓN</b></h2>
+        <a href="../html/404.html">Cómo ser anfitrión</a>
+        <a href="../html/404.html">Garantías</a>
+        <a href="../html/404.html">Políticas de privacidad</a>
+        <a href="../html/404.html">Términos y condiciones</a>
+      </div>
+      <div class="redes">
+        <h2><b>NUESTRAS REDES</b></h2>
+        <div class="red-social">
+          <a href="https://www.facebook.com/RollingCodeSchool/" target="_blank">
+            <i class="bi bi-facebook"> Facebook</i></a>
+          <a href="https://www.instagram.com/rollingcodeschool/" target="_blank">
+            <i class="bi bi-instagram"> Instagram</i></a>
+          <a href="https://twitter.com/rollingcodeok?lang=es" target="_blank">
+            <i class="bi bi-twitter-x"> X</i></a>
+          <a href="https://www.youtube.com/@rollingcode7175" target="_blank">
+            <i class="bi bi-youtube"> Youtube</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <p>© 2023 <b>Aymara Alquileres</b> - Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

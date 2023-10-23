@@ -1,0 +1,81 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --principal: #F0B920;
+    --secundario: #F2A922;
+    --terciario: #ffdc68;
+    --blanco: #F2F2F2;
+    --gris: #8C8C8C;
+    --grisOscuro: #404040;
+    --negro: #0D0D0D;
+}
+
+main{
+    padding: 1.5rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--negro);
+}
+
+section {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+iframe {
+    border: 0.1rem solid var(--gris);
+    border-radius: 0.2rem;
+}
+
+.form-control {
+    border: 0.1rem solid var(--grisOscuro);
+}
+
+form .btn {
+    background-color: var(--secundario);
+    border: 0.1rem solid var(--grisOscuro);
+    color: var(--negro);
+}
+
+.es-requerido::after {
+    content: '*';
+    margin-left: 0.5rem;
+    color: red;
+    font-weight: bold;
+}
+
+.formContacto {
+    border: 0.1rem solid var(--grisOscuro);
+    border-radius: 3rem;
+    background-color: var(--terciario);
+    margin-right: 0.6rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+}
+
+.formContacto:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.mapa {
+    margin-left: 0.6rem;
+}
+
+.row {
+    justify-content: center;
+}

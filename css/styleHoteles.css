@@ -1,0 +1,45 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --principal: #F0B920;
+    --secundario: #F2A922;
+    --terciario: #ffdc68;
+    --blanco: #F2F2F2;
+    --gris: #8C8C8C;
+    --grisOscuro: #404040;
+    --negro: #0D0D0D;
+}
+
+main{
+    padding: 1.5rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--negro);
+}
+
+.pagination a{
+    margin: 1rem;
+    margin-bottom: 0rem;
+    color: var(--negro);
+}
+
+.card img{
+    max-height: 230px;
+}
+
+.card .btn {
+    background-color: var(--terciario);
+    border: 0.1rem solid var(--grisOscuro);
+    color: var(--negro);
+}
+
+.pMargin{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
